@@ -12,9 +12,8 @@ This chatbot intends to educate current and prospective international students i
 
 ## Demo
 To see the working demo, click on the links
-
-- [Web Demo](https://bot.dialogflow.com/oshcme)
-- [Facebook Messenger](m.me/322067718473863)
+- <a href="https://bot.dialogflow.com/oshcme" target="_blank">Web Demo</a>
+- <a href="https://m.me/322067718473863" target="_blank">Facebook Messenger</a>
 
 ## Prerequisites
 
