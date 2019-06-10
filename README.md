@@ -2,12 +2,19 @@
 # OSHC Chatbot using Dialogflow
 
 Deliverable of UTS 32933 Research Project Autumn 2019
+
 supervisor: [Dr. Wei Liu](https://www.uts.edu.au/staff/wei.liu)
 
 ## What is it
 
 Overseas Student Health Cover is the health insurance which allmost all of the international students in Australia have to purchase before applying for student visa. 
 This chatbot intends to educate current and prospective international students in Australia about their OSHC cover, who are the providers and how much do they cost.
+
+## Demo
+To see the working demo, click on the links
+
+- [Web Demo](https://bot.dialogflow.com/oshcme)
+- [Facebook Messenger](m.me/322067718473863)
 
 ## Prerequisites
 
@@ -28,13 +35,15 @@ To run the chatbot, you will need to have the following
 
 
 Have a Mysql instance running. You can use managed Mysql provided by different cloud provider. The demo version of the project uses Google Cloud SQL.
-Import the mbs.sql either using Mysql workbench or the following command
+Import the chatbot.sql either using Mysql workbench or the following command
+This will restore the the snapshot of the demo database.
 ```
-mysql -u username -p  < mbs.sql //schema name is mbs
+mysql -u username -p  < chatbot.sql //schema name is mbs
 ```
-if something goes wrong, use the create script called create.sql and then use cronjob and ScheduleParser to populate the table
+
+if something goes wrong, use the create scripts called create.sql to create the tables for ScheduleParser and Cronjob
 ```
-create.sql
+mysql -u username -p  < create.sql
 ```
 ___
 
@@ -152,4 +161,3 @@ It should show something like this:
 ## Contact 
 
 If you have any queries, feel free to create an issue or contact me via the email address in my profile.
-
