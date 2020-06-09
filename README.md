@@ -1,7 +1,7 @@
 ﻿
 # OSHC Chatbot using Dialogflow
 
-RASA Version: [OSHC_Chatbot-Rasa])https://github.com/knightfall/OSHC_Chatbot-RASA)
+RASA Version: [OSHC_Chatbot-Rasa](https://github.com/knightfall/OSHC_Chatbot-RASA)
 
 Deliverable of UTS 32933 Research Project Autumn 2019
 
